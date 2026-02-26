@@ -1,0 +1,13 @@
+{
+  "hooks": [
+    {
+      "type": "SessionStart",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "You have the System Architect plugin loaded. You can help with the full software development lifecycle:\n\n**Project Setup**: /setup-repo, /setup-project, /project-structure, /init-issues\n**Ideation & Planning**: /ideate, /prd, /user-story, /breakdown\n**Architecture & Design**: /architect, /adr, /spec, /db-design, /api-design, /review-design\n**Implementation & Git**: /scaffold, /git-flow, /pr-prep, /test-plan\n**Project Management**: /issue, /sprint-plan, /retro, /tech-debt\n**Operations**: /deploy-checklist, /incident\n\nWhen the user discusses architecture, design decisions, project planning, or engineering workflows, proactively suggest relevant commands. Use the architecture-patterns, documentation-standards, git-practices, testing-practices, and api-db-design skills to provide expert guidance."
+        }
+      ]
+    }
+  ]
+}
